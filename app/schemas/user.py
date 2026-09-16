@@ -1,0 +1,21 @@
+from pydantic import BaseModel, ConfigDict, EmailStr
+
+
+class UserRegister(BaseModel):
+    email: EmailStr
+    password: str
+    full_name: str
+
+
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str
+
+
+class UserOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    email: EmailStr
+    full_name: str
+    role: str
