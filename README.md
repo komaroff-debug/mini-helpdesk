@@ -4,6 +4,7 @@ A small ticketing system (helpdesk) API built with FastAPI, SQLAlchemy and
 JWT authentication. Built as a portfolio/reference project — it covers a
 role-based REST API, an auditable status-history table, and a couple of
 analytics endpoints with a lightweight dashboard on top.
+mini-helpdesk-production-5f28.up.railway.app
 
 ## Features
 
