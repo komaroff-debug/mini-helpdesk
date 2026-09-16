@@ -5,6 +5,7 @@ JWT authentication. Built as a portfolio/reference project — it covers a
 role-based REST API, an auditable status-history table, and a couple of
 analytics endpoints with a lightweight dashboard on top.
 http://mini-helpdesk-production-c3cb.up.railway.app/docs
+https://mini-helpdesk-93di.onrender.com/docs
 
 ## Features
 
